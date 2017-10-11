@@ -25,7 +25,7 @@ jin park
 	e.g .git/hook/post-commit
 
 3. In the script, write curl --user <user_name>:<API_KEY> <JENKINS_URL> :
-	e.g curl --user jin: b17a236558b339c146daa160f8b1cf07 http://localhost:8080/job/MySecond/build?token=TEST_TOKEN
+	e.g curl --user jin:b17a236558b339c146daa160f8b1cf07 http://localhost:8080/job/MySecond/build?token=TEST_TOKEN
 
 4. Test it
 	e.g git commit -m".." ---> 
